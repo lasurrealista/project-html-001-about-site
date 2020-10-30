@@ -1,0 +1,23 @@
+    .img {display: inline-block; background-color: burlywood; height: 250px; margin: 20px;
+    }
+
+    .column {
+     float: left;
+    }
+
+    .column-bold {
+      float: left;
+      font-weight: bold;
+     }
+
+    .row {
+    display: inline-block;
+    }
+
+    .box {
+        display: inline-block;
+        width: 140;
+        height: 140;
+        border: 2px solid;
+        border-color: burlywood;
+        }
