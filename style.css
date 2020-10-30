@@ -1,0 +1,7 @@
+.box {
+display: inline-block;
+width: 140;
+height: 140;
+border: 2px solid;
+border-color: burlywood;
+}
