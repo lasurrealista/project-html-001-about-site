@@ -5,19 +5,6 @@ html {
 h2 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-  .column {
-     float: left;
-   }
-
-  .column-bold {
-      float: left;
-      font-weight: bold;
-  }
-
-  .row {
-    display: inline-block;
-  }
-
   .gallery {
       height: 250px; width: 180px;
       margin: 20px;
