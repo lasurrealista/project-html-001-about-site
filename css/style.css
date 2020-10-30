@@ -17,7 +17,13 @@
       box-shadow: 0 0 8px gray;
     }
 
-    .image-container {max-width: 700px;}
+    .image-container {
+      max-width: 700px;
+    }
+
+    .self-portrait {
+       align: left top;
+    }
 
     .box {
         display: inline-block;

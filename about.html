@@ -10,13 +10,66 @@
         <h1 style="text-align: left; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Leonardo da Vinci bemutatkozó oldala</h1>
     </header>
     <nav id="menu"></nav>
+
     <main id="wrapper">
-        <section id="inner"></section>
+
+        <section id="inner">
+            <h2>Bemutatkozás</h2>
+            <img class="self-portrait" src="https://www.leonardodavinci.net/images/leonardo-da-vinci.jpg" alt="Önarckép" width="280">
+            <p>Leonardo da Vinci vagyok, művész, tudós, feltaláló. 
+                1452. április 15-én a Vinci város melletti Anchianóban születtem, főként Firenzében, Rómában és Milánóban éltem és alkottam. 
+                Később a francia király festője lettem. Az olasz az anyanyelvem, de latinul és görögül is értek, bal kézzel is ügyesen írok és rajzolok.</p>
+            
+                <h2>Erősségek</h2>
+                <ul>
+                    <li>Sokoldalúság</li>
+                    <li>Analitikus látásmód</li>
+                    <li>Kreativitás</li>  
+                    <li>Műveltség</li>   
+                    <li>Kiemelkedő kézügyesség</li>          
+                </ul>   
+
+                <h2>Hobbik</h2>
+                <ol>
+                    <li>Barkácsolás</li>
+                    <li>Modellépítés</li>
+                    <li>Szobrászkodás</li>
+                    <li>A fizika jelenségeinek tanulmányozása</li>
+                    <li>Zenélés</li>
+                 </ol>
+
+        </section>
+
+        <form id="contact-form"> 
+            <fieldset>
+
+              <legend>Kapcsolat:</legend>
+
+                <div>
+                  <label for="name">Név: *</label>
+                  <input type="text" name="name" id="name" value="" minlength="5" required/>
+                </div>
+                <div>
+                  <label for="email">E-mail: *</label>
+                  <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" value="" required/>
+                </div>
+                <div>
+                  <label for="message">Üzenet: *</label>
+                  <textarea name="message" id="message" minlength="20" required></textarea>
+                <div>
+                
+                <button>Küldés</button>
+            
+            </fieldset>
+          </form>
+
     </main>
+
     <footer id="footer">
         <button id="button">
             <a href="#menu">Menü</a>
         </button>
     </footer>
+
 </body>
 </html>
