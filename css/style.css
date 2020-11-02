@@ -1,25 +1,93 @@
+@font-face {
+  font-family: "PlayfairDisplay";
+  src:url(css\fonts\PlayfairDisplay-VariableFont_wght.ttf);
+  font-weight: 500;}
+
 html {
   background-color: #cfcfcf;
-  }
-  
-h2 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:"PlayfairDisplay", Helvetica, sans-serif;
 }
 
-  .gallery {
-      height: 250px; width: 180px;
-      margin: 20px;
-      box-shadow: 0 0 8px gray;
+#menu {
+  padding-left: 3em;
+}
+
+#menu ul {
+  list-style-type: none;
+}
+
+#menu ul li {
+  display: inline-block;
+}
+
+#index-main {
+  padding: 1em 2em;
+}
+
+#about-section {
+  padding: 1em 2em;
+  background-color: rgb(248, 247, 244);
+  border: rgba(211, 211, 211, 0.911);
+}
+
+.works-section article {
+  border-bottom: double; 
+  color: grey;
+  margin-bottom: 6em;
+}
+
+.works-section article img {
+  width: 25%;
+  margin-right: 2%;
+}
+
+.works-section article .right-content {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+}
+
+.image-container-home img {
+  height: 380px;
+  margin-right: 3px;
+}
+
+.image-container-gallery {
+  max-width: 700px;
+}
+
+.image-container-gallery img {
+  height: 250px; width: 180px;
+  margin: 20px;
+  box-shadow: 0 0 8px gray;
+}
+
+.box {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid;
+  border-color: burlywood;
+  box-shadow: 0 0 3px burlywood;
+  width: 25%;
+  margin: 1%;
+  text-align: center;
   }
 
-  .image-container {
-      max-width: 700px;
-  }
-
+@media screen and (max-width: 567px) {
   .box {
-        display: inline-block;
-        width: 140;
-        height: 140;
-        padding: 10px;
-        border: 2px solid;
-        border-color:burlywood;
+    width: 100%;
   }
+  .image-container-gallery {
+    width: 100%;
+  }
+  .works-section article img {
+    width: 100%;
+  }
+}
+  
+  
+
+
+
+
+
